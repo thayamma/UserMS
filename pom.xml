@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>Project-Microservice</name>
+	<name>UserMS</name>
 	<description>Project user  Microservice</description>
 
 	<parent>
