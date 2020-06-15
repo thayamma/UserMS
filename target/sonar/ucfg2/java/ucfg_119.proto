@@ -1,0 +1,52 @@
+
+Bcom.infosys.project.user.dto.loginDTO#toString()Ljava/lang/String;X
+NC:/Users/thaya/UserMS/src/main/java/com/infosys/project/user/dto/loginDTO.java ("1*¯	
+1X
+NC:/Users/thaya/UserMS/src/main/java/com/infosys/project/user/dto/loginDTO.java	 (±
+Æ
+X
+NC:/Users/thaya/UserMS/src/main/java/com/infosys/project/user/dto/loginDTO.java  (%
+%0java.lang.String"__id*4*2'
+%com.infosys.project.user.dto.loginDTO"
+email±
+Æ
+X
+NC:/Users/thaya/UserMS/src/main/java/com/infosys/project/user/dto/loginDTO.java	 (%
+%1java.lang.String"__concat*
+LoginDTO [emailId=*
+
+%0java.lang.String™
+ß
+X
+NC:/Users/thaya/UserMS/src/main/java/com/infosys/project/user/dto/loginDTO.java	 (5
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+, password=¥
+±
+X
+NC:/Users/thaya/UserMS/src/main/java/com/infosys/project/user/dto/loginDTO.java8 (@
+%3java.lang.String"__id*7*5'
+%com.infosys.project.user.dto.loginDTO"
+
+password≥
+∞
+X
+NC:/Users/thaya/UserMS/src/main/java/com/infosys/project/user/dto/loginDTO.java	 (@
+%4java.lang.String"__concat*
+
+%2java.lang.String*
+
+%3java.lang.String†
+ù
+X
+NC:/Users/thaya/UserMS/src/main/java/com/infosys/project/user/dto/loginDTO.java	 (F
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+]"t
+X
+NC:/Users/thaya/UserMS/src/main/java/com/infosys/project/user/dto/loginDTO.java (G
+
+%5java.lang.StringB)'
+%com.infosys.project.user.dto.loginDTO

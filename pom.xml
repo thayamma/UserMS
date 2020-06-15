@@ -22,6 +22,10 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>8</java.version>
+<sonar.projectKey>thayamma_UserMS</sonar.projectKey>
+  <sonar.organization>thayamma</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  <sonar.login>8d0145d06fa32126150a6ca0f577e8bef3595591</sonar.login>
 	</properties>
 <dependencyManagement>
 		<dependencies>
