@@ -26,6 +26,10 @@ phases:
     commands:
       - echo build started on `date`
       - echo testing code with sonar
+      - mvn clean install -D"sonar.login"=build:
+    commands:
+      - echo build started on `date`
+      - echo testing code with sonar
       - mvn clean install -D"sonar.login"=$LOGIN -D"sonar.host.url"=$HOST -D"sonar.projectKey"=$Project -D"sonar.organization"=$Organization
       - sleep 5
       - curl https://sonarcloud.io/api/qualitygates/project_status?projectKey=$Project >result.json
@@ -44,5 +48,6 @@ phases:
       - docker push $REPOSITORY_URI:$IMAGE_TAG
       - echo Writing image definitions file...
       - printf '[{"name":"orderContainer","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
+
 artifacts:
     files: imagedefinitions.json
